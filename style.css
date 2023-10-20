@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+       text-align: center;
+}
+
+header, main, body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    height: 10vw;
+    background-color: rgb(185, 147, 192);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+main {
+    background-color: rgb(177, 198, 237);
+    text-align: left;
+    padding-top: 10vw; 
+}
+.right-corner-aside {
+    flex-shrink: 0;
+    max-width: 50%; 
+    padding: 20px;
+}
+
+.right-corner-aside img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto; 
+    background-color:turquoise;
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+p
+{
+line-height: 1.5;
+}
+h1 {
+    text-align: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+figure {
+    height: 210px;
+    width: 210px;
+    background-color: #f4f4f4;
+    margin-bottom: 100px;
+    border-style: double;
+    border-width: 5px;
+    margin: 10% 10% 10% 10%;
+
+}
+
+nav {
+    background-color: maroon;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+li a:active {
+    background-color: darkorange;
+}
+
+nav ul {
+    list-style: circle;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1em;
+    font-weight: bold;
+}
+
+nav ul {
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav li {
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+#newsletter {
+    background-color: #f4f4f4;
+    padding: 0px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    padding: 40px;
+    border: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
